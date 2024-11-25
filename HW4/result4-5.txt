@@ -1,0 +1,7 @@
+Input Days :
+8
+8 day = 691200 seconds
+
+Input Days :
+27
+27 day = 2332800 seconds

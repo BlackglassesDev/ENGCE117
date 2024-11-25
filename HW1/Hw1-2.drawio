@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.9">
+  <diagram name="หน้า-1" id="4DnAxE0uKUlQSuk50jTT">
+    <mxGraphModel dx="1008" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y7cE8JUY_UZaCyjRhavQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y7cE8JUY_UZaCyjRhavQ-2" target="y7cE8JUY_UZaCyjRhavQ-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y7cE8JUY_UZaCyjRhavQ-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;เริ่มต้น&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="354" y="90" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y7cE8JUY_UZaCyjRhavQ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y7cE8JUY_UZaCyjRhavQ-3" target="y7cE8JUY_UZaCyjRhavQ-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y7cE8JUY_UZaCyjRhavQ-3" value="แสดงผล&lt;div&gt;&amp;nbsp;Hello, I&#39;m Javis (RMUTL-Version).&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="258" y="200" width="348" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y7cE8JUY_UZaCyjRhavQ-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;สิ้นสุด&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="354" y="530" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y7cE8JUY_UZaCyjRhavQ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y7cE8JUY_UZaCyjRhavQ-11" target="y7cE8JUY_UZaCyjRhavQ-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y7cE8JUY_UZaCyjRhavQ-11" value="&lt;div&gt;แสดงผล&lt;/div&gt;&lt;div&gt;This is my first time to coding with C language.&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="262" y="310" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y7cE8JUY_UZaCyjRhavQ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="y7cE8JUY_UZaCyjRhavQ-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="432" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y7cE8JUY_UZaCyjRhavQ-16" value="&lt;div&gt;แสดงผล&lt;/div&gt;&lt;div&gt;Today is my birthday.&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="262" y="420" width="340" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

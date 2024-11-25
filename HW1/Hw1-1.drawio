@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.9">
+  <diagram name="หน้า-1" id="ZukyO20Jd3o1PcbWO_to">
+    <mxGraphModel dx="1008" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OmEuO-mr1491HxJS_xt7-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OmEuO-mr1491HxJS_xt7-1" target="OmEuO-mr1491HxJS_xt7-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OmEuO-mr1491HxJS_xt7-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;เริ่มต้น&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="338" y="160" width="151" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OmEuO-mr1491HxJS_xt7-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OmEuO-mr1491HxJS_xt7-6" target="OmEuO-mr1491HxJS_xt7-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OmEuO-mr1491HxJS_xt7-6" value="แสดงผล&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font&gt;Hello World.&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="344" y="280" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OmEuO-mr1491HxJS_xt7-9" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;สิ้นสุด&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="338.5" y="400" width="151" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

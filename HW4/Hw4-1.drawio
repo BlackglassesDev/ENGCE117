@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.9">
+  <diagram name="หน้า-1" id="r7Fn0lGWwMreVCI1uCRv">
+    <mxGraphModel dx="1008" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dmSaLJfatIWtw0Pc9MD7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dmSaLJfatIWtw0Pc9MD7-1" target="dmSaLJfatIWtw0Pc9MD7-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmSaLJfatIWtw0Pc9MD7-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;เริ่มต้น&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="331" y="120" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dmSaLJfatIWtw0Pc9MD7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dmSaLJfatIWtw0Pc9MD7-2" target="dmSaLJfatIWtw0Pc9MD7-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmSaLJfatIWtw0Pc9MD7-2" value="&lt;span style=&quot;font-family: ui-sans-serif, -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Helvetica, &amp;quot;Apple Color Emoji&amp;quot;, Arial, sans-serif, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; text-align: left;&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;กำหนดค่า&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&amp;nbsp;a = 10&amp;nbsp;&lt;div&gt;&amp;nbsp;b = 20&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;c = &quot;Haha&quot;&lt;/div&gt;&lt;div&gt;d = &#39;a&#39;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="296" y="240" width="236" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dmSaLJfatIWtw0Pc9MD7-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dmSaLJfatIWtw0Pc9MD7-4" target="dmSaLJfatIWtw0Pc9MD7-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmSaLJfatIWtw0Pc9MD7-4" value="แสดงผล&amp;nbsp;&lt;div&gt;10 20.0 Haha a&amp;nbsp;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="289" y="400" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dmSaLJfatIWtw0Pc9MD7-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;สิ้นสุด&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="331" y="520" width="166" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
