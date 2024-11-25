@@ -2,7 +2,7 @@
 int main() {
     char empID[10] ;
     int hr, salary ;
-    double total ;
+    float total ;
     printf( "Input the Employees ID(Max. 10 chars):\n" ) ;
     scanf( "%s", empID ) ;
     printf( "Input the working hrs: \n" ) ;
@@ -12,6 +12,6 @@ int main() {
     total = hr * salary ;
     printf( "Expected Output:\n" ) ;
     printf( "Employees ID = %s\n", empID ) ;
-    printf( "Salary = U$ %,.2f", total ) ;
+    printf( "Salary = U$ %.2f", total ) ;
     return 0 ;
 } // end function
