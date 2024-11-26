@@ -26,4 +26,5 @@ int main() {
     else {
         printf( "%d %d %d", num3, num2, num1 ) ;
     }
+    return 0 ;
 }
