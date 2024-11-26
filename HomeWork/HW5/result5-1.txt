@@ -1,0 +1,7 @@
+Test case: 
+L M Y K
+Result: K Y M L
+
+Test case: 
+A B C D
+Result: D C B A
