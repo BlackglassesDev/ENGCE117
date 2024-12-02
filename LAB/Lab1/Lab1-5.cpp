@@ -3,7 +3,7 @@
 void GetMatrix( int value[], int *row, int *col ) ;
 
 int main() {
-    int data[100], m, n ;
+    int *data, m, n ;
     GetMatrix( data, &m, &n ) ;
     if( m <= 0 && n <= 0 ) {
         return 0 ;
