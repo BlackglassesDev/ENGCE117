@@ -1,0 +1,11 @@
+Enter number: 5
+Enter Number Eletment: 2 4 6 8 10
+------------------------
+Number of elements: 5 
+2 4 6 8 10 
+
+Enter number: 3
+Enter Number Eletment: 5 10 15
+------------------------
+Number of elements: 3 
+5 10 15 

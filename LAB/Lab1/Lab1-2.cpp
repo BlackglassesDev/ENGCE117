@@ -1,10 +1,25 @@
 #include <stdio.h>
 #include <string.h>
 
-void GetSet( int , int * ) ;
+void GetSet( int dt[], int *nm ) ;
 
 int main() {
     int *data, num ;
-    GetSet( &data, &num ) ;
+    data = new int[10] ;
+    GetSet( data, &num ) ;
+    printf( "------------------------\n" ) ;
+    printf( "Number of elements: %d \n", num ) ;
+    for( int i = 0 ; i < num ; i++ ) {
+        printf( "%d ", data[i] ) ;
+    }
     return 0 ;
 }//end function
+
+void GetSet( int dt[], int *nm ) {
+    printf( "Enter number: ") ;
+    scanf( "%d", nm ) ;
+    printf( "Enter Number Eletment: " ) ;
+    for( int i = 0 ; i < *nm ; i++ ) {
+        scanf( "%d", &dt[i] ) ;
+    }
+}
