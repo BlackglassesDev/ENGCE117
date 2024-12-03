@@ -78,59 +78,86 @@
 /////////////////////////////////////////////////////////////////////////
 
 
-#include <stdio.h>
+// #include <stdio.h>
 
-void GetMatrix( int value[], int *row, int *col ) ;
+// void GetMatrix( int value[], int *row, int *col ) ;
 
-int main() {
-    int data[100], m, n ;
-    GetMatrix( data, &m, &n ) ;
-    if( m <= 0 && n <= 0 ) {
-        return 0 ;
-    }//end if
-    else if( m <= 0 || n <= 0 ) {
-        return 0 ;
-    }//end else if
-    if( data[100] != m * n ) {
-        printf( "Error: Incorrect number of elements." ) ;
-        return 0 ;
-    }
-    else{
-        printf( "Matrix (%dx%d): \n", m, n ) ;
-    for( int i = 0 ; i < m ; i++ ){
-        for( int j = 0 ; j < n ; j++ ) {
-            printf( "%d ", data[i * n + j] ) ;
-        }//end for
-        printf( "\n" ) ;
-    }//end for
-    }
+// int main() {
+//     int data[100], m, n ;
+//     GetMatrix( data, &m, &n ) ;
+//     if( m <= 0 && n <= 0 ) {
+//         return 0 ;
+//     }//end if
+//     else if( m <= 0 || n <= 0 ) {
+//         return 0 ;
+//     }//end else if
+//     if( data[100] != m * n ) {
+//         printf( "Error: Incorrect number of elements." ) ;
+//         return 0 ;
+//     }
+//     else{
+//         printf( "Matrix (%dx%d): \n", m, n ) ;
+//     for( int i = 0 ; i < m ; i++ ){
+//         for( int j = 0 ; j < n ; j++ ) {
+//             printf( "%d ", data[i * n + j] ) ;
+//         }//end for
+//         printf( "\n" ) ;
+//     }//end for
+//     }
 
     
-    return 0 ;
-}//end function
+//     return 0 ;
+// }//end function
 
-void GetMatrix( int value[], int *row, int *col ) {
-    printf( "Enter the number of rows: " ) ;
-    scanf( "%d", row ) ;
-    printf( "Enter the number of columns: " ) ;
-    scanf( "%d", col ) ;
-    if( *row <= 0 && *col <= 0 ) {
-        printf( "Matrix:\n" ) ;
-        printf( "(empty)" ) ;
-        return ;
-    }//end if
-    else if( *row <= 0 || *col <= 0 ) {
-        printf( "Error: Invalid matrix dimensions." ) ;
-        return ;
-    }//end else if
-    printf( "Enter the matrix elements: " ) ;
-    for( int i = 0 ; i < *row  ; i++ ) {
-        for( int j ; j< *col ; j++ ) {
-            scanf( "%d", &value[i * ( *col ) + j] ) ;
-            char ch = getchar() ;
-            if ( ch == '\n' ) {             
-                break ;
-            }
-        }
-    }//end for
-}//end function GetMatrix
+// void GetMatrix( int value[], int *row, int *col ) {
+//     printf( "Enter the number of rows: " ) ;
+//     scanf( "%d", row ) ;
+//     printf( "Enter the number of columns: " ) ;
+//     scanf( "%d", col ) ;
+//     if( *row <= 0 && *col <= 0 ) {
+//         printf( "Matrix:\n" ) ;
+//         printf( "(empty)" ) ;
+//         return ;
+//     }//end if
+//     else if( *row <= 0 || *col <= 0 ) {
+//         printf( "Error: Invalid matrix dimensions." ) ;
+//         return ;
+//     }//end else if
+//     printf( "Enter the matrix elements: " ) ;
+//     for( int i = 0 ; i < *row  ; i++ ) {
+//         for( int j ; j< *col ; j++ ) {
+//             scanf( "%d", &value[i * ( *col ) + j] ) ;
+//             char ch = getchar() ;
+//             if ( ch == '\n' ) {             
+//                 break ;
+//             }
+//         }
+//     }//end for
+// }//end function GetMatrix
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+
+
+
+
+#include <stdio.h>
+
+int *GetMatrix( int *row, int *col ) ;
+
+int main(){
+    int *data, n ,m ;
+    data = GetMatrix( &m, &n ) ;
+    printf("data = %d",data);
+}
+int *GetMatrix( int *row, int *col ){
+    int val[2] ;
+    int val ;
+    printf("test: ");
+    scanf("%d",&val);
+    val[0]= 2;
+    val[1]= 4;
+    return val;
+}

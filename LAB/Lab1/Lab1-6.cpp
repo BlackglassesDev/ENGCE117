@@ -22,8 +22,8 @@ int *GetMatrix( int *row, int *col ) {
     scanf( "%d %d", row , col ) ;
     int *dt = new int[10] ;
     printf( "Enter Matrix of eletment:\n" ) ;
-    for( int i ; i < *row * *col ; i++ ){
+    for( int i = 0 ; i < *row * *col ; i++ ){
         scanf( "%d", &dt[i] ) ;
-    } 
+    } //end for
     return dt ; 
-}
+}//end function GetMatrix

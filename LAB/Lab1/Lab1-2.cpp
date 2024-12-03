@@ -11,7 +11,7 @@ int main() {
     printf( "Number of elements: %d \n", num ) ;
     for( int i = 0 ; i < num ; i++ ) {
         printf( "%d ", data[i] ) ;
-    }
+    }//end for
     return 0 ;
 }//end function
 
@@ -21,5 +21,5 @@ void GetSet( int dt[], int *nm ) {
     printf( "Enter Number Eletment: " ) ;
     for( int i = 0 ; i < *nm ; i++ ) {
         scanf( "%d", &dt[i] ) ;
-    }
-}
+    }//end for
+}//end function Getset

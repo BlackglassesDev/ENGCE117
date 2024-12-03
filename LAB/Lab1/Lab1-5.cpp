@@ -39,5 +39,4 @@ void GetMatrix( int value[], int *row, int *col ) {
     for ( int i = 0 ; i < ( *row ) * ( *col ) ; i++ ) {
         scanf( "%d", &value[i] ) ;
     }//end for 
-    
 }//end function GetMatrix

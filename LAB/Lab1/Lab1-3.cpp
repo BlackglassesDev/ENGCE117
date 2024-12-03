@@ -9,7 +9,7 @@ int main() {
     printf( "Number of elements: %d\n", num ) ;
     for( int i = 0 ; i < num ; i++ ) {
         printf( "%d ", data[i] ) ;
-    }
+    }//end for
     return 0 ;
 }//end function   
 
@@ -21,8 +21,8 @@ int *GetSet( int *nm ) {
     printf( "Enter the elements: " ) ;
     for( int i = 0 ; i < nmarr ; i++ ) {
         scanf( "%d", &dt[i] ) ;
-    }
+    }//end for
     *nm = nmarr ;
     return dt ;
-}
+}//end function Getset
 
