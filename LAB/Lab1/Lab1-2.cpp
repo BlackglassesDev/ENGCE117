@@ -5,7 +5,7 @@ void GetSet( int dt[], int *nm ) ;
 
 int main() {
     int *data, num ;
-    data = new int[10] ;
+    data = new int[num] ;
     GetSet( data, &num ) ;
     printf( "------------------------\n" ) ;
     printf( "Number of elements: %d \n", num ) ;

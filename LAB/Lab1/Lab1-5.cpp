@@ -4,6 +4,7 @@ void GetMatrix( int value[], int *row, int *col ) ;
 
 int main() {
     int *data, m, n ;
+    data = new int[ 10 ] ;
     GetMatrix( data, &m, &n ) ;
     if( m <= 0 && n <= 0 ) {
         return 0 ;

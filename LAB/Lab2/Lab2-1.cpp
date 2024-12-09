@@ -13,7 +13,7 @@ int main() {
 
 void reverse( char str1[], char str2[] ) {
     printf( "Input Your Massage: " ) ;
-    fgets( str1, 50, stdin ) ;
+    gets( str1 ) ;
     int len = strlen( str1 ) ;
     for( int i = 0 ; i < len ; i++ ) {
         str2[ i ] = str1[ len - i - 1 ] ;
