@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 char FirstName [50], LastName [50] ;
 int main() {
     printf( "First Name: " ) ; 

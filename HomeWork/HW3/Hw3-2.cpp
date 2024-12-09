@@ -1,6 +1,6 @@
 // TODO: #9 Fix bug and arrange code in CODEX pattern.
 #include <stdio.h>
-// #include <stdbool.h>
+
 int main() {
     float a, b = 3 ;
     bool _1 = 0 ;

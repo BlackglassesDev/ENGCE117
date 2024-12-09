@@ -10,8 +10,8 @@ int main() {
     for( int i = 1 ; i < 3 ; i++ ) {
         if( num[ i ] > num[ max_index ]) {
             max_index = i; 
-        }
-    }
+        }//end if
+    }//end for
     for( int i = 0 ; i < 3 ; i++ ) {
         printf( "%d%s Number = %d\n", i + 1, ( i == 0 ? "st" : ( i == 1 ? "nd" : "rd" ) ), num[ i ] ) ;
     }//end for

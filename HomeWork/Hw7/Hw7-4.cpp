@@ -5,15 +5,18 @@ int main() {
     printf( "Enter number: " ) ;
     scanf( "%d", &num ) ;
     printf( "Series = " ) ;
-    for( int i = num ; i >= 2 ; i-- ) {
-        for( j = 2 ; j <= i ; j++ ) {
-            if( i % j == 0 ) {
+    while( num >= 2 ) {
+        j = 2 ;
+        while(  j <= num ) {
+            if( num % j == 0 ) {
                 break;
             }//end if
+            j++ ;
         }//end for
-        if( i == j ) {
-            printf( "%d ", i ) ;
+        if( num == j ) {
+            printf( "%d ", num ) ;
         }//end if
+        num-- ;
     }//end for
     return 0 ;
 }//end function

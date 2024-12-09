@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() {
     int day, sec ;
     printf( "Input Days :\n" ) ;

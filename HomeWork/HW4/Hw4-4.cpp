@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() {
     float h, w, area ;
     printf( "Enter H & W :\n" ) ;

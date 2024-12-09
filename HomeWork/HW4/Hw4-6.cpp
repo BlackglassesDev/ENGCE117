@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() {
     char empID[10] ;
     int hr, salary ;
