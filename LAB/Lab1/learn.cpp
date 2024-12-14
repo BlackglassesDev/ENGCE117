@@ -143,21 +143,21 @@
 
 
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int *GetMatrix( int *row, int *col ) ;
+// int *GetMatrix( int *row, int *col ) ;
 
-int main(){
-    int *data, n ,m ;
-    data = GetMatrix( &m, &n ) ;
-    printf("data = %d",data);
-}
-int *GetMatrix( int *row, int *col ){
-    int val[2] ;
-    int val ;
-    printf("test: ");
-    scanf("%d",&val);
-    val[0]= 2;
-    val[1]= 4;
-    return val;
-}
+// int main(){
+//     int *data, n ,m ;
+//     data = GetMatrix( &m, &n ) ;
+//     printf("data = %d",data);
+// }
+// int *GetMatrix( int *row, int *col ){
+//     int val[2] ;
+//     int val ;
+//     printf("test: ");
+//     scanf("%d",&val);
+//     val[0]= 2;
+//     val[1]= 4;
+//     return val;
+// }

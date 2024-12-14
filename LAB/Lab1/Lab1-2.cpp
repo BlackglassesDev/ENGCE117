@@ -13,7 +13,7 @@ int main() {
         printf( "%d ", data[i] ) ;
     }//end for
     return 0 ;
-}//end function
+}//end function5
 
 void GetSet( int dt[], int *nm ) {
     printf( "Enter number: ") ;
