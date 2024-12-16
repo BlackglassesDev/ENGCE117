@@ -2,7 +2,7 @@
 
 int main() {
     int num = 100, count = 0 ;
-    char data[100] ;
+    int data[100] ;
     for( int i = 0 ; i < num ; i++ ) {
         printf( "Input [%d] : \n", i ) ;
         scanf( "%d", &data[ i ] ) ;
