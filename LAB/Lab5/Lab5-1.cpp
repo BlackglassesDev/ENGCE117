@@ -38,7 +38,7 @@ void ShowAll( struct studentNode *walk ) {
 struct studentNode *AddNode( struct studentNode **add, char n[], int a, char s, float g ) {
     while( *add != NULL ) {
         add = &( *add )->next ;
-    }//end if
+    }//end while
     *add = new struct studentNode ;
     strcpy( ( *add )->name, n ) ;
     ( *add )->age = a ;
