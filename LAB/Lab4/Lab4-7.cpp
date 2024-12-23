@@ -24,15 +24,10 @@ int main() {
 
     now = start ;
 
-    // printf( "Gonext1 = %s\n", now->name ) ;
     GoNext( &now ) ;  // Move to next node and print
-    // printf( "Gonext2 = %s\n", now->name ) ;
     GoNext( &now ) ;  // Move to next node and print
-    // printf( "Gonext3 = %s\n", now->name ) ;
     GoNext( &now ) ;  // Move to next node and print
-    // printf( "Gonext4 = %s\n", now->name ) ;
     GoNext( &now ) ;  // Move to next node and print
-    // printf( "Gonext5 = %s\n", now->next ) ;
 
     return 0;
 }//end function

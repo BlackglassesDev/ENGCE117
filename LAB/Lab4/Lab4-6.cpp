@@ -29,7 +29,7 @@ int main() {
     now1 = start ;
     now2 = &start ;
 
-    // printf( "%s \n", (*now2)->name ) ;
+    printf( "%s \n", (*now2)->name ) ;
     GoNext2( &now2 ) ;
     printf( "%s ", (*now2)->name ) ;
 
@@ -44,7 +44,7 @@ void SaveNode( struct studentNode *child, char n[], int a, char s, float g ) {
 }//end function
 
 void GoNext2( struct studentNode ***walk ) {
-    if( (**walk) -> next ) {
+    if( (**walk) -> next != NULL) {
         **walk = ( **walk ) -> next ;
     }//end if
 }//end function

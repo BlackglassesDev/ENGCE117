@@ -7,9 +7,9 @@ int main() {
     int *c = new int ; *c = 20 ;
     int **a ;
     go( &a, &b ) ;
-    printf( "%d %p %p %p \n", **a, (void *)a, a, &a ) ;
+    printf( "%d %p %p %p \n", **a,  *a, a, &a ) ;
     go( &a, &c ) ;
-    printf( "%d %p %p %p \n", **a, (void *)a, a, &a ) ;
+    printf( "%d %p %p %p \n", **a,  *a, a, &a ) ;
     return 0 ;
 }//end function
 
